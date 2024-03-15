@@ -14,7 +14,9 @@ h1 {
     background-color: rgb(0, 153, 255);
     color: white;
 }
-
+.menu {
+    padding: 20px;
+}
 footer { 
     background-color: black;
     color: azure;
