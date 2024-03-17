@@ -16,9 +16,13 @@ h1 {
 }
 .menu {
     padding: 20px;
-    width: 10%;
+    width: 5%;
 }
 footer { 
     background-color: black;
     color: azure;
+}
+.nota {
+    width: 40
+    px;
 }
