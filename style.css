@@ -20,18 +20,13 @@ h2 {
 .logo { 
     width: 200px;
 }
+.menu2{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
 .menu {
     width: 100%;
-}
-.listado {
-    display: inline-block;
-    align-items: center;
-    line-height: 30px;
-}
-.textopremium {
-    display: flex;
-    flex-direction: column;
-    text-align: initial; 
 }
 .premium {
     margin-top: 0;
@@ -41,23 +36,35 @@ h2 {
     display: block;
     padding-top: 20%;
 }
-.bene {
-    width: 100px;
-}
 .planes {
     margin-left: 50%;
     transform: translateX(-50%);
     background-color: green;
 }
+.listado {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    flex-direction: column;
+}
+.bene {
+    width: 100px;
+    margin-left: 10px;
+    position: absolute;
+    padding: 15px;
+}
+.textopremium {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 200px;
+    vertical-align: baseline;
+}
+
 .nota {
     width: 40px;
 }
 
-.menu2{
-    display: flex;
-    justify-content: space-between;
-    width: 100px;
-}
 footer { 
     background-color: black;
     color: azure;
