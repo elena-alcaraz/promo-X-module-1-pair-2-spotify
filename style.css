@@ -42,23 +42,22 @@ h2 {
     background-color: green;
 }
 .listado {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
     line-height: 30px;
-    flex-direction: column;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 4fr;
 }
 .bene {
     width: 100px;
     margin-left: 10px;
-    position: absolute;
     padding: 15px;
+
 }
 .textopremium {
-    display: flex;
-    flex-direction: column;
     text-align: justify;
-    margin-left: 200px;
     vertical-align: baseline;
+
 }
 
 .nota {
